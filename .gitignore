@@ -1,0 +1,13 @@
+<div id = "pics" className ="text-center">
+	  				<img id= "pic1" src = "./images/IMG_0057.jpeg"></img>
+	  				<img id= "pic2" src = "./images/IMG_0059.jpeg"></img>
+	  				<img id= "pic3" src = "./images/IMG_0060.jpeg"></img>
+	  				<img id= "pic5" src = "./images/IMG_0063.jpeg"></img>
+	  				<img id= "pic6" src = "./images/IMG_0064.jpeg"></img>
+	  				<img id= "pic7" src = "./images/IMG_0065.jpeg"></img>
+	  				<img id= "pic8" src = "./images/IMG_0066.jpeg"></img>
+	  				<img id= "pic9" src = "./images/IMG_0077.jpeg"></img>
+	  				<img id= "pic10" src = "./images/IMG_0078.jpeg"></img>
+	  				<img id= "pic11" src = "./images/IMG_0080.jpeg"></img>
+	  				<img id= "pic12" src = "./images/IMG_0081.jpeg"></img>
+	  			</div>
