@@ -6,21 +6,23 @@ body{
 	color: black;
 	font-size: 25px;
 }
-#code{
+#code{/*
  float:left; display:inline; width: 49%;
  width: 25%;
  height: 25%;
-}
+*/}
 
-#form{
+#form{/*
 	float:right; display:inline; width: 49%;
 	background-color: teal;
-}
+*/}
 
 #desc{
-	float:left; display:inline; width: 49%;
-	border: 2px solid black;
-	left:100px;
+	border-bottom: 2px solid black;
+}
+
+#location{
+	border-bottom: 2px solid black;
 }
 
 #trainers{
@@ -28,6 +30,10 @@ body{
 }
 #pictures{
 	border: 2px solid black;
+}
+
+#border{
+	border-bottom: black;
 }
 
 #pic1{
