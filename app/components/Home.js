@@ -2,8 +2,6 @@
 import React, { Component } from 'react';
 import {Link, withRouter } from 'react-router-dom'
 import Header from './Header';
-import google from './Google';
-import MapContainer from './MapContainer'
 
 class Sign_up extends Component {
   constructor(props, context) {
@@ -59,10 +57,6 @@ class Sign_up extends Component {
       	            <input className="btn btn-danger" type="submit" />        
 		          </form>
 		        </div>
-            <div id="google">
-            <GoogleMap/>
-            
-            </div>
        </div>
     );
   }
