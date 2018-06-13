@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>OD Fitness</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <title>Od Fitness</title>
+  <!-- Typefaces -->
+  <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Materialize Icons -->
+    <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
+
 <body>
-	<div id="app">
-	</div>
-	<script src="./bundle/bundle.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWSz6q4cLpxd_i_gck2ue0DUk9KG8PJQw&callback=init"
-    async defer></script>
+  <!-- This is where React will deploy the contents it generates -->
+  <div id="app"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABOmBYuQiCnTIx8ynKAx8dyb2-4jvh6uE&callback=initMap"
+      type="text/javascript"></script>
+  <!-- All of our JS code will be transpiled into this bundle.js file -->
+  <script src="./bundle/bundle.js"></script>
+  <!-- JQuery -->
+  
 </body>
 </html>

@@ -1,7 +1,7 @@
-
 import React, { Component } from 'react';
 import {Link, withRouter } from 'react-router-dom'
 import Header from './Header';
+import Google_Map from './Google_Map'
 
 class Sign_up extends Component {
   constructor(props, context) {
@@ -45,21 +45,23 @@ class Sign_up extends Component {
               <p>We are located in</p>
               <img className ="text-center" id= "code" src = "./images/nyc-skyline.jpg"></img>
               </div> 
-				    <div id ="form">
-					     <form id="sign-in-form" onSubmit={this.signUpForm.bind(this)}>
-						      <h4>Try Us For Free</h4>
-      	            <label>Name</label><br></br>
-      	            <input className="text-center" type="text" ref="name" /><br></br>
-      	            <label>Email</label><br></br>
-      	            <input className="text-center" type="text" ref="email" /><br></br>
-      	            <label>Phone</label><br></br>
-      	            <input className="text-center" type="text" ref="Phone"/><br></br>
-      	            <input className="btn btn-danger" type="submit" />        
+				 <div id ="form">
+					<form id="sign-in-form" onSubmit={this.signUpForm.bind(this)}>
+						<h4>Try Us For Free</h4>
+	      	            <label>Name</label><br></br>
+	      	            <input className="text-center" type="text" ref="name" /><br></br>
+	      	            <label>Email</label><br></br>
+	      	            <input className="text-center" type="text" ref="email" /><br></br>
+	      	            <label>Phone</label><br></br>
+	      	            <input className="text-center" type="text" ref="Phone"/><br></br>
+	      	            <input className="btn btn-danger" type="submit" />        
 		          </form>
+		      	</div>
+		        <div>
+		        <Google_Map/>
 		        </div>
        </div>
     );
   }
 };
-
 export default withRouter(Sign_up)
