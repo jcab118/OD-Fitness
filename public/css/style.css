@@ -1,28 +1,42 @@
-body{
-	background-color: white;
+#home{
+	background-color: black;
 }
-#info{
-	border: 2px solid black;
-	color: black;
-	font-size: 25px;
-}
-#code{/*
- float:left; display:inline; width: 49%;
+#code{
  width: 25%;
  height: 25%;
-*/}
-
-#form{/*
-	float:right; display:inline; width: 49%;
-	background-color: teal;
-*/}
-
+}
+#logo{
+	width: 25%;
+	height: 25%;
+}
+#flexing{
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	left: 1px;
+}
 #desc{
 	border-bottom: 2px solid black;
+	color:white;
 }
-
+#skyline{
+	width: 65%;
+	height: 65%;
+}
+#gm{
+	height: 320px;
+	width: 400px;
+	position: absolute;
+    right: 150px;
+     bottom: -35px;
+}
+#social{
+	position: absolute;
+	right: 100px;
+	color:white;
+}
 #location{
-	border-bottom: 2px solid black;
+	color:white;
 }
 
 #trainers{

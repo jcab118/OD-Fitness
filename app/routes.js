@@ -10,6 +10,8 @@ import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import Google_Map from "./components/Google_Map";
 import Location from "./components/Location";
+import Sign_up from "./components/Sign_up";
+
 
 
 export default (
@@ -22,5 +24,6 @@ export default (
     	<Route exact path="/" component={Testimonials} />
         <Route exact path="/" component={Google_Map} />
         <Route exact path="/" component={Location} />
+        <Route exact path="/" component={Sign_up} />
     </Switch>
 );
